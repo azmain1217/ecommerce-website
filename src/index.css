@@ -2,22 +2,28 @@
 
 :root {
   font-family: 'DM Sans', sans-serif;
-  color: #1c1c19;
-  background: #f7f7f3;
+  color: #edf3ff;
+  background: #091323;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-optical-sizing: auto;
   font-weight: 400;
-  --ink: #1c1c19;
-  --muted: #75756e;
-  --paper: #f7f7f3;
-  --white: #fff;
-  --line: #e8e8e1;
-  --blue: #2437e8;
-  --blue-dark: #1929bb;
-  --lime: #e5ff68;
+  color-scheme: dark;
+  --ink: #edf3ff;
+  --muted: #9aacc8;
+  --paper: #101c31;
+  --white: #f4f7ff;
+  --line: #293b57;
+  --teal: #35d6e8;
+  --blue: var(--teal);
+  --blue-dark: #1a9eac;
+  --lime: #d1ff65;
+  --canvas: #091323;
+  --surface: #111f36;
+  --surface-raised: #172843;
+  --surface-soft: #1d304b;
   --display: 'Space Grotesk', sans-serif;
 }
 
